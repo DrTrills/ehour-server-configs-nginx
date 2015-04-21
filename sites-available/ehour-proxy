@@ -21,10 +21,16 @@ server {
 
   # Custom 404 page
   error_page 404 /404.html;
-  
-    # Path for static files
+
+  # Path for static files
   root /opt/ehour/app/ehour/app/;
 
   # Include the basic h5bp config set
-  include h5bp/basic.conf;
+  #  include h5bp/basic.conf;
+ # Should make asset files easier ro read
+ include h5bp/location/cache-busting.conf;
+
+ location ~ ^/(css|img|js)/ {
+        include h5bp/basic.conf;
+    }
 }
