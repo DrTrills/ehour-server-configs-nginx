@@ -1,3 +1,5 @@
+https://travis-ci.org/DrTrills/ehour-server-configs-nginx.svg?branch=master
+
 # [Nginx Server Configs](https://github.com/h5bp/server-configs-nginx)
 
 **Nginx Server Configs** is a collection of configuration snippets that can help
