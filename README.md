@@ -1,4 +1,4 @@
-https://travis-ci.org/DrTrills/ehour-server-configs-nginx.svg?branch=master
+[![Build Status](https://travis-ci.org/DrTrills/ehour-server-configs-nginx.svg?branch=master)](https://travis-ci.org/DrTrills/ehour-server-configs-nginx)
 
 # [Nginx Server Configs](https://github.com/h5bp/server-configs-nginx)
 
