@@ -22,12 +22,16 @@ incorporating the desired functionality from this repository.
 
 ## Using directly
 
+Make sure Apache or any other web server is off before using this (may result in some downtime)
+
 To use directly, replace the nginx config directory with this repository. for example:
+
+install nginx first if you haven't already- (sudo apt-get install nginx)
 
     /etc/init.d/nginx stop
     cd /etc
     mv nginx nginx-previous
-    git clone git@github.com:h5bp/server-configs-nginx.git nginx
+    git clone https://github.com/DrTrills/ehour-server-configs-nginx.git nginx
     # install-specific edits
     /etc/init.d/nginx start
 
